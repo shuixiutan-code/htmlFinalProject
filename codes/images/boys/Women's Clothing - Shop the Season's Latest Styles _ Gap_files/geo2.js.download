@@ -1,0 +1,16 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "SAINTEANNEDEBELLEVUE",
+      'continent': "NA",
+      'country': "CA",
+      'region': "QC"
+    },
+    'ip':"207.162.58.3"
+  }]);
+})
+//
+()
+
+;

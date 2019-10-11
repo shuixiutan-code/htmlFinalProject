@@ -1,0 +1,75 @@
+﻿@charset "utf-8";
+
+/* Purpose: CSS document for the sign-in web page */
+/* Developed by: Xiaohui Wang */
+/* Script Date: September 29, 2019 */
+
+/* styling the body selector */
+body    {
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-family:'Times New Roman', Times, serif;
+    }
+
+
+/* styling the header id selector */
+#header {
+    width:910px;
+    margin:0 0 10px 0;
+    padding:10px;
+    background-color:#ffff00; /* yellow color */
+    height:75px;
+}
+
+/* styling the navbar id selector */
+#navbar {
+    width: 910px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.00); /* transparent color */
+    height: 25px;
+}
+    #navbar a {
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+        margin: 0 40px 0 0;
+    }
+/*styleing the slogan*/
+h1 {
+    text-align:center;
+}
+/* styling the form */
+form {
+    width: 360px;
+    margin: 0 10px 10px 500px;
+    padding: 20px;
+    background-color: white; /* white color */
+    height: auto;
+    float: left;
+}
+
+/*define the size of input elements*/
+
+.text {
+    width: 300px;
+    height: 30px;
+    margin-top:0;    
+}
+.button {
+    width: 300px;
+    height: 30px;
+    background-color:#ffd800;
+}
+
+
+/* styling the footer id selector */
+#footer {
+    width: 910px;
+    padding: 10px;
+    background-color: #0f0; /* green color */
+    height: 75px;
+    clear:both;
+}

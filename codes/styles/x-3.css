@@ -1,0 +1,299 @@
+﻿@charset "utf-8";
+
+/* This is css document for the finalProject web page */
+/* Developed by:Shuixiu Tan */
+/* Script Date:September 29,2019 */
+
+/* Start styling public part styling------------------------------------------------------------------------------------------Start public styling */
+
+/* Styling the body selector */
+body {
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;	
+}
+
+/* Styling the container id selector */
+.wholeScreenBackground {
+	width:100%;
+	background-color:#2387eb;
+	1height: 100px;
+}
+
+/* styling the header id selector */
+#header {
+    width: 1360px;
+	color:white;
+	margin:auto;
+    1background-color: #fffff0; 
+    height: 100px;
+}
+
+/* styling the headerInfo */
+.headerInfo{
+	width:350px;
+	float:left;	
+}
+
+/*styling free Shipping */
+#freeShipping{
+	margin:40px 0 0 80px;
+	text-align:right;
+}
+
+/* styling the signIn text and shopping cart picture div */
+#signInCart{	
+	margin:40px 0 0 215px;
+	text-align:right;
+	font-weight:bold;
+}
+
+
+/*styling container */
+#container {
+    width: 1360px;
+	margin:auto;
+}
+
+/* styling the navbar element */
+#navbar {
+	padding-top:20px;
+    width: 1360px;
+	height:40px;
+}
+
+/*styling the link for the navbar */
+#navbar a{
+	color:black;
+	font-weight:bold;
+	font-size:15px;
+	text-decoration: none;
+	margin:0 40px 0 0;
+	
+}
+
+/* styling the main element*/
+#main{
+	width: 1360px;
+}
+
+
+/* styling the footer element */
+#footer {
+	
+	1border:2px solid red;
+	margin:500px 0 0 160px;
+	width:1360px;
+	color:white;
+    1height: 140px;
+    clear: both;
+	
+}
+
+/*styling the contactTable class */
+.contactTable{
+	margin-top:13px;
+	font-weight:bold;
+	
+}
+
+/* styling the footerInfo part */
+.footerInfo{
+	margin-left:60px;
+	width:350px;
+	float:left;
+}
+
+/* styling the list in footerInfo 
+.footerInfo ul li{
+	list-style-type:none;
+}
+*/
+
+/* styling the link inside the footerInfo list */
+.footerInfo ul li a{
+	font-size:11px;
+	text-decoration: none;
+	color:white;
+}
+
+/* styling the link inside the footerInfo list */
+.footerInfo ol li a{
+	font-size:11px;
+	text-decoration: none;
+	color:white;
+}
+
+/*styling the copy right */
+.copyRight{
+	margin-left:450px;
+	font-size:10px;
+	clear:both;
+}
+
+/*styling the currentPage button */
+.currentPage{
+	color:red;
+	
+}
+
+#signInCart a{
+	color:white;
+	text-decoration:none;
+	
+}
+
+/* end public styling------------------------------------------------------------------------------------------------end public styling */
+
+
+/* start styling index page ----------------------------------------------------------------------------------- start styling index page*/
+.part{
+	
+	width:1360px;
+	margin:40px 0 0 100px;
+	
+}
+
+/*styling the link in departmentTitle */
+.departmentsTitle a{
+	margin:0 0 0 75px;
+	font-weight:bold;
+	font-size:18px;
+	text-decoration: none;
+	color:black;
+}
+
+/*styling the picture in shop department */
+.thumbnail{
+
+	width:200px;
+	float:left;
+	margin-left:80px;
+	
+}
+
+/*styling the picture in new arrive picture */
+.thumbnail2{
+	width:150px;
+	float:left;
+	margin-left:80px;
+	
+	
+}
+/* make shop department picture become a circle */
+.thumbnail img{ border-radius:50%}
+
+/*styling productDetail */
+.productDetail{
+	margin-left:50px;
+}
+
+/*styling the price class */
+.price{
+	color:red;
+	font-size:20px;
+	font-weight:bold;
+	
+}
+
+/*styling the promotionPercent class */
+.promotionPercent{
+	color:red;
+	
+}
+
+/*styling the addToBag button */
+.addToBag button{
+	
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	margin-top:15px;
+	font-weight:bold;
+	width:150px;
+	height:30px;
+	
+}
+/* end index page-----------------------------------------------------------------------------------------------------------end index page */
+
+/* start styling contact page -----------------------------------------------------------------------------------start styling contact page*/
+
+.contactInfo{
+	width:600px;
+	margin-left:50px;
+	float:left;
+}
+
+#contactSubmit .contactInput{
+	height:25px;
+	width:369px;
+}
+
+.contactInputLab{
+	font-size:14px;	
+}
+
+#about1Pic{
+	margin-left:50px;
+	border-radius:50%;
+	
+}
+
+/*start about page -----------------------------------------------------------------------------------------------------------------------*/
+
+.aboutInfo{
+	margin-right:40px;
+	width:600px;
+	float:left;
+	font-size:14px;	
+}
+
+/* start products page */
+
+#leftSidebar{
+	background-color:white;
+	width:180px;
+	height:800px;
+	padding:10px;
+	margin:0 10px 10px 0;
+	float:left;
+}
+
+#rightSidebar{
+	margin-top:20px;
+	width:980px;
+	float:left;
+	
+}
+#footless{
+    text-align: center;
+    color:grey;
+    vertical-align: middle;
+}
+#footed{
+    text-align: center;
+    color:grey;
+}
+
+#leftSidebar a{
+	text-decoration:none;
+	color:gray;
+
+}
+
+
+/*  boys.html  */
+
+.shopType a{
+	margin-top:20px;
+	text-decoration:none;
+	font-size: 20px;
+	color:black;
+	
+}
+
+
+
